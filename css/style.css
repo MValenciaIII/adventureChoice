@@ -1,0 +1,40 @@
+body {
+    background: url(../media/map.jpeg)no-repeat;
+    
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    font-family: 'Neucha', cursive;
+}
+
+.textBox {
+    border: solid rgb(34, 34, 34) 3px;
+    padding: 0;
+}
+
+.textBox input {
+    background: #868686b7;
+    color: black;
+    border: darkgray;
+    width: 100%;
+}
+
+.textSquare {
+    background: rgba(34, 34, 34, 0.795);
+    width: 100%;
+    height: 300px;
+}
+
+.textSquare #screen {
+    font-size: 20px;
+    color: rgb(116, 2, 2);
+}
+
+.textSquare #userText {
+    margin: 0;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+}
