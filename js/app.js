@@ -27,7 +27,7 @@ var answerStore = '';
 
 
 
-const textConsole = ()=> {
+const wagonScene = ()=> {
     setTimeout(() => {
         rolaf('Guy: Hey, you. You\'re finally awake.'); 
         setTimeout(() => {
@@ -36,11 +36,9 @@ const textConsole = ()=> {
     }, 3000);
     //userAnswer = answerStore
     userAnswer.addEventListener('blur', (event) => {
-
         if (userAnswer.value == 'Yes') {
             yourself(' Myself: Yes, I am fully awake. Where am i? ');
-        } 
-            
+        }     
         else {
              yourself(' Myself: No. *closes eyes* ');
             setTimeout(() => {
@@ -54,4 +52,4 @@ const textConsole = ()=> {
     })
 }
 
-textConsole();
+wagonScene();
